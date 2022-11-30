@@ -1,0 +1,62 @@
+.pokeSingle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokeSingle img {
+    margin: 2rem;
+}
+
+.pokeSingle span {
+    border: 1px dashed #33333313;
+    margin: 2rem 0.6rem;
+    padding: 0.2rem;
+    background: rgba(128, 143, 240, 0.381);
+    color: #333333;
+    border-radius: 5px;
+}
+
+.pokeSingle button {
+    margin: 2rem;
+}
+
+.pokeSingle button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #343a40
+}
+
+.pokeSingle button:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.pokeSingle button:hover:after {
+    opacity: 1;
+    left: 10px;
+}
+
+.pokeSingle button:after {
+    content: "\00AB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    left: -20px;
+    transition: 0.4s;
+}

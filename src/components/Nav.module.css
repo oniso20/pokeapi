@@ -1,0 +1,26 @@
+.ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.ul li a.active {
+    color: #e45e5e;
+    text-decoration: none;
+}
+
+.ul li {
+    margin-left: 1rem;
+}
+
+.ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
